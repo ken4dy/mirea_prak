@@ -8,7 +8,7 @@ public class Test
     public static void main(String[] args)
     {
         String[] strings = new String[1];
-        strings[0] = "C:\\Users\\Виктор\\Desktop\\картинка.jpg";
+        strings[0] = "C:\\Users\\Kanat\\Dociments\\картинка.jpg";
 
         Image bgImage= Toolkit.getDefaultToolkit().getImage(strings[0]);
         JLabel jLabel = new JLabel(new ImageIcon(bgImage));
